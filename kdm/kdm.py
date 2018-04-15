@@ -1,10 +1,10 @@
-from flask import Flask
+import flask
 
-app = Flask("kdm-manager")
+app = flask.Flask("kdm")
 
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
+def landingPage():
+    return flask.render_template('index.html')
 
 if __name__ == '__main__':
     app.run()
