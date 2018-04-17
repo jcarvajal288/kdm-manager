@@ -1,8 +1,8 @@
 import flask
-from kdm.gear import controllers
+from kdm.gear import routes as gearRoutes
 
 app = flask.Flask("kdm")
-app.register_blueprint(controllers.gear)
+app.register_blueprint(gearRoutes.blueprint)
 
 @app.route('/')
 def landingPage():
