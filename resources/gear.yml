@@ -1,0 +1,201 @@
+# for affinities: lowercase letter means a regular affinity, capital letter means puzzle affinity
+- Gear:
+    - Cloth:
+        building: Starting Gear
+        keywords:
+            - armor
+        hit_location: waist
+        armor_points: 1
+        text: >
+            The Cloth protects your waist. Gain 1 armor point at the waist hit location.
+
+    - Founding_Stone: 
+        building: Starting Gear
+        keywords:
+            - weapon
+            - melee
+            - stone
+        speed: 2
+        accuracy: 7
+        strength: 1
+        text: >
+            Spend [A] to sling the stone from anywhere on the board!
+            Archive this card for 1 automatic hit that inflicts a critical wound.
+
+    - Final_Lantern:
+        building: Starting Gear
+        keywords:
+            - item
+            - other
+        affinities:
+            up: green
+            left: blue
+        text: >
+            <b>Vital</b>
+            On <b>Arrival</b>, all survivors gain the <b>Horripilation</b> survivor status card. 
+            (See the Watcher's AI deck).  When <b>insane</b>, flip this card.
+
+    - Rawhide_Headband:
+        building: Skinnery
+        keywords:
+            - armor
+            - set
+            - rawhide
+        hit_location: head
+        armor_points: 1
+        affinities:
+            down: blue
+        text: >
+            b: [A]: Reveal the top 2 [AI]. Place them back on top of the deck in any order.
+
+    - Rawhide_Vest:
+        building: Skinnery
+        keywords:
+            - armor
+            - set
+            - rawhide
+        hit_location: body
+        armor_points: 1
+        affinities:
+            up: blue
+            right: red
+        text: >
+            BR: +1 evasion
+
+    - Rawhide_Gloves:
+        building: Skinnery
+        keywords:
+            - armor
+            - set
+            - rawhide
+        hit_location: arms
+        armor_points: 1
+        affinities:
+            left: red
+        text: >
+            When you <b>depart</b>, gain +1 survival.
+
+    - Rawhide_Pants:
+        building: Skinnery
+        keywords:
+            - armor
+            - set
+            - rawhide
+        hit_location: waist
+        armor_points: 1
+
+    - Rawhide_Boots:
+        building: Skinnery
+        keywords:
+            - armor
+            - set
+            - rawhide
+        hit_location: legs
+        armor_points: 1
+        text: >
+            When you <b>depart</b>, gain +1 survival.
+
+    - Rawhide_Drum:
+        building: Skinnery
+        keywords:
+            - item
+            - rawhide
+            - instrument
+            - noisy
+        affinities:
+            left: green
+        text: >
+            On <b>Arrival</b>, all survivors gain +1 insanity.
+            Inspirational Drumming!  When you perform <b>encourage</b>,
+            all non-deaf survivors are affected.
+
+    - Rawhide_Whip:
+        building: Skinnery
+        keywords:
+            - weapon
+            - melee
+            - whip
+            - rawhide
+        speed: 3
+        accuracy: 7
+        strength: 1
+        text: >
+            <b>Provoke</b>: When you wound with this weapon,
+                gain the <b>priority target</b> token.
+
+    - Bandages:
+        building: Skinnery
+        keywords:
+            - item
+        affinities:
+            left: blue
+            down: green
+        text: >
+            [A]: Remove up to 2 bleeding tokens from yourself or an adjacent survivor.
+
+    - Monster_Tooth_Necklace:
+        building: Organ Grinder
+        keywords:
+            - item
+            - jewelry
+            - bone
+        affinities:
+            right: red
+        text: >
+            Gain + 1 strength.
+            rr: + 1 strength
+
+    - Monster_Grease:
+        building: Organ Grinder
+        keywords:
+            - item
+            - consumable
+            - soluable
+            - stinky
+        affinities:
+            left: green
+        text: >
+            Gain + 1 evasion.
+            ggg: + 1 evasion
+
+    - Lucky_Charm:
+        building: Organ Grinder
+        keywords:
+            - item
+            - jewelry
+        affinities:
+            left: blue
+            right: blue
+        text: >
+            bb: + 1 luck
+
+    - Fecal_Salve:
+        building: Organ Grinder
+        keywords:
+            - item
+            - balm
+            - stinky
+        affinities:
+            left: blue
+        text: >
+            When you <b>depart</b>, gain +1 survival.
+            [A]: You are not a <b>threat</b> until you attack. If you
+            have the <b>priority target</b> token, remove it.
+
+    - Dried_Acanthus:
+        building: Organ Grinder
+        keywords:
+            - item
+            - herb
+            - consumable
+        text: >
+            When you <b>depart</b>, gain +2 survival. When you suffer a 
+            severe injury, ignore it and archive this card instead.
+
+    - Stone_Noses:
+        building: Organ Grinder
+        keywords:
+            - item
+            - jewelry
+        text: >
+            On <b>Arrival</b>, gain +1 survival, +1 insanity.
